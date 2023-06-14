@@ -11,3 +11,11 @@ Ce projet doit avoir :
 
 - Une BDD qui : 
   - contient toutes les IP a ping
+
+Table de sauvegarde des ip :
+
+| Colonne | Type |
+|---------|------|
+| id      | int  |
+| ip      | varchar(50) |
+| is_online | boolean |
